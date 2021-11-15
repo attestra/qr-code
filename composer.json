@@ -1,8 +1,8 @@
 {
-    "name": "endroid/qr-code",
-    "description": "Endroid QR Code",
-    "keywords": ["endroid", "qrcode", "qr", "code", "php"],
-    "homepage": "https://github.com/endroid/qr-code",
+    "name": "attestra/qr-code",
+    "description": "Attestra QR Code",
+    "keywords": ["attestra", "qrcode", "qr", "code", "php"],
+    "homepage": "https://github.com/attestra/qr-code",
     "type": "library",
     "license": "MIT",
     "authors": [
