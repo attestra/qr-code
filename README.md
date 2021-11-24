@@ -18,8 +18,8 @@ as PNG, SVG, EPS or in binary format.
 
 Use [Composer](https://getcomposer.org/) to install the library.
 
-``` bash
-$ composer require endroid/qr-code
+```bash
+$ composer require attestra/qr-code
 ```
 
 ## Usage: using the builder
@@ -152,20 +152,7 @@ code will be readable by all readers but it helps you provide a minimum level
 of quality. Take note that the validator can consume quite amount of additional
 resources and it should be installed separately only if you use it.
 
-## Symfony integration
-
-The [endroid/qr-code-bundle](https://github.com/endroid/qr-code-bundle)
-integrates the QR code library in Symfony for an even better experience.
-
-* Configure your defaults (like image size, default writer etc.)
-* Support for multiple configurations and injection via aliases
-* Generate QR codes for defined configurations via URL like /qr-code/<config>/Hello
-* Generate QR codes or URLs directly from Twig using dedicated functions
- 
-Read the [bundle documentation](https://github.com/endroid/qr-code-bundle)
-for more information.
-
-## Versioning
+Versioning
 
 Version numbers follow the MAJOR.MINOR.PATCH scheme. Backwards compatibility
 breaking changes will be kept to a minimum but be aware that these can occur.
