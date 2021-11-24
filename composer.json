@@ -29,18 +29,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Endroid\\QrCode\\": "src/"
+            "Attestra\\QrCode\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Endroid\\QrCode\\Tests\\": "tests/"
+            "Attestra\\QrCode\\Tests\\": "tests/"
         }
     },
     "config": {
         "sort-packages": true,
         "preferred-install": {
-            "endroid/*": "source"
+            "attestra/*": "source"
         }
     },
     "extra": {

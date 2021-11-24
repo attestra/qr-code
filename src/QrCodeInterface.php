@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode;
+namespace Attestra\QrCode;
 
-use Endroid\QrCode\Color\ColorInterface;
-use Endroid\QrCode\Encoding\EncodingInterface;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
+use Attestra\QrCode\Color\ColorInterface;
+use Attestra\QrCode\Encoding\EncodingInterface;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
 
 interface QrCodeInterface
 {

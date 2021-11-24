@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Writer\Result;
+namespace Attestra\QrCode\Writer\Result;
 
-use Endroid\QrCode\Matrix\MatrixInterface;
+use Attestra\QrCode\Matrix\MatrixInterface;
 
 final class BinaryResult extends AbstractResult
 {

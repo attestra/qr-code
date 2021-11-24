@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Label\Font;
+namespace Attestra\QrCode\Label\Font;
 
 final class NotoSans implements FontInterface
 {

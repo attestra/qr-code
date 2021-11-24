@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Label\Margin;
+namespace Attestra\QrCode\Label\Margin;
 
 interface MarginInterface
 {

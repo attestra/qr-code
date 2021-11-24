@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Writer\Result;
+namespace Attestra\QrCode\Writer\Result;
 
-use Endroid\QrCode\Label\LabelInterface;
-use Endroid\QrCode\Logo\LogoInterface;
-use Endroid\QrCode\QrCodeInterface;
+use Attestra\QrCode\Label\LabelInterface;
+use Attestra\QrCode\Logo\LogoInterface;
+use Attestra\QrCode\QrCodeInterface;
 
 final class DebugResult extends AbstractResult
 {

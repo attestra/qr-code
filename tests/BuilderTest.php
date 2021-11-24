@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Tests;
+namespace Attestra\QrCode\Tests;
 
-use Endroid\QrCode\Builder\Builder;
-use Endroid\QrCode\Encoding\Encoding;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
-use Endroid\QrCode\Label\Alignment\LabelAlignmentCenter;
-use Endroid\QrCode\Label\Font\NotoSans;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
-use Endroid\QrCode\Writer\PngWriter;
-use Endroid\QrCode\Writer\Result\PngResult;
+use Attestra\QrCode\Builder\Builder;
+use Attestra\QrCode\Encoding\Encoding;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
+use Attestra\QrCode\Label\Alignment\LabelAlignmentCenter;
+use Attestra\QrCode\Label\Font\NotoSans;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
+use Attestra\QrCode\Writer\PngWriter;
+use Attestra\QrCode\Writer\Result\PngResult;
 use PHPUnit\Framework\TestCase;
 
 final class BuilderTest extends TestCase

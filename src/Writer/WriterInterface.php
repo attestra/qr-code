@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Writer;
+namespace Attestra\QrCode\Writer;
 
-use Endroid\QrCode\Label\LabelInterface;
-use Endroid\QrCode\Logo\LogoInterface;
-use Endroid\QrCode\QrCodeInterface;
-use Endroid\QrCode\Writer\Result\ResultInterface;
+use Attestra\QrCode\Label\LabelInterface;
+use Attestra\QrCode\Logo\LogoInterface;
+use Attestra\QrCode\QrCodeInterface;
+use Attestra\QrCode\Writer\Result\ResultInterface;
 
 interface WriterInterface
 {

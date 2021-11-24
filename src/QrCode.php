@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode;
+namespace Attestra\QrCode;
 
-use Endroid\QrCode\Color\Color;
-use Endroid\QrCode\Color\ColorInterface;
-use Endroid\QrCode\Encoding\Encoding;
-use Endroid\QrCode\Encoding\EncodingInterface;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
+use Attestra\QrCode\Color\Color;
+use Attestra\QrCode\Color\ColorInterface;
+use Attestra\QrCode\Encoding\Encoding;
+use Attestra\QrCode\Encoding\EncodingInterface;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
 
 final class QrCode implements QrCodeInterface
 {

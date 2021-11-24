@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Tests;
+namespace Attestra\QrCode\Tests;
 
-use Endroid\QrCode\Builder\Builder;
-use Endroid\QrCode\Writer\Result\PngResult;
+use Attestra\QrCode\Builder\Builder;
+use Attestra\QrCode\Writer\Result\PngResult;
 use PHPUnit\Framework\TestCase;
 
 final class ValidatorTest extends TestCase

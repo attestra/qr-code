@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Builder;
+namespace Attestra\QrCode\Builder;
 
 final class BuilderRegistry implements BuilderRegistryInterface
 {

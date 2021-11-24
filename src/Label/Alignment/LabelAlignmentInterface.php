@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Label\Alignment;
+namespace Attestra\QrCode\Label\Alignment;
 
 interface LabelAlignmentInterface
 {

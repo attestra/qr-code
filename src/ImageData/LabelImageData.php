@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\ImageData;
+namespace Attestra\QrCode\ImageData;
 
-use Endroid\QrCode\Label\LabelInterface;
+use Attestra\QrCode\Label\LabelInterface;
 
 class LabelImageData
 {

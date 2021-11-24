@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Builder;
+namespace Attestra\QrCode\Builder;
 
-use Endroid\QrCode\Color\ColorInterface;
-use Endroid\QrCode\Encoding\EncodingInterface;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
-use Endroid\QrCode\Label\Alignment\LabelAlignmentInterface;
-use Endroid\QrCode\Label\Font\FontInterface;
-use Endroid\QrCode\Label\Label;
-use Endroid\QrCode\Label\LabelInterface;
-use Endroid\QrCode\Label\Margin\MarginInterface;
-use Endroid\QrCode\Logo\Logo;
-use Endroid\QrCode\Logo\LogoInterface;
-use Endroid\QrCode\QrCode;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
-use Endroid\QrCode\Writer\PngWriter;
-use Endroid\QrCode\Writer\Result\ResultInterface;
-use Endroid\QrCode\Writer\ValidatingWriterInterface;
-use Endroid\QrCode\Writer\WriterInterface;
+use Attestra\QrCode\Color\ColorInterface;
+use Attestra\QrCode\Encoding\EncodingInterface;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
+use Attestra\QrCode\Label\Alignment\LabelAlignmentInterface;
+use Attestra\QrCode\Label\Font\FontInterface;
+use Attestra\QrCode\Label\Label;
+use Attestra\QrCode\Label\LabelInterface;
+use Attestra\QrCode\Label\Margin\MarginInterface;
+use Attestra\QrCode\Logo\Logo;
+use Attestra\QrCode\Logo\LogoInterface;
+use Attestra\QrCode\QrCode;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
+use Attestra\QrCode\Writer\PngWriter;
+use Attestra\QrCode\Writer\Result\ResultInterface;
+use Attestra\QrCode\Writer\ValidatingWriterInterface;
+use Attestra\QrCode\Writer\WriterInterface;
 
 class Builder implements BuilderInterface
 {

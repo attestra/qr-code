@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Label;
+namespace Attestra\QrCode\Label;
 
-use Endroid\QrCode\Color\ColorInterface;
-use Endroid\QrCode\Label\Alignment\LabelAlignmentInterface;
-use Endroid\QrCode\Label\Font\FontInterface;
-use Endroid\QrCode\Label\Margin\MarginInterface;
+use Attestra\QrCode\Color\ColorInterface;
+use Attestra\QrCode\Label\Alignment\LabelAlignmentInterface;
+use Attestra\QrCode\Label\Font\FontInterface;
+use Attestra\QrCode\Label\Margin\MarginInterface;
 
 interface LabelInterface
 {

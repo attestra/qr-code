@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Bacon;
+namespace Attestra\QrCode\Bacon;
 
 use BaconQrCode\Common\ErrorCorrectionLevel;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelMedium;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelQuartile;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelMedium;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelQuartile;
 
 final class ErrorCorrectionLevelConverter
 {

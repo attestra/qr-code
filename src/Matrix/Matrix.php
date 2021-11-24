@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Matrix;
+namespace Attestra\QrCode\Matrix;
 
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeEnlarge;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeShrink;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeEnlarge;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeShrink;
 
 final class Matrix implements MatrixInterface
 {

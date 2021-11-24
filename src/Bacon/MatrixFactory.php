@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Bacon;
+namespace Attestra\QrCode\Bacon;
 
 use BaconQrCode\Encoder\Encoder;
-use Endroid\QrCode\Matrix\Matrix;
-use Endroid\QrCode\Matrix\MatrixFactoryInterface;
-use Endroid\QrCode\Matrix\MatrixInterface;
-use Endroid\QrCode\QrCodeInterface;
+use Attestra\QrCode\Matrix\Matrix;
+use Attestra\QrCode\Matrix\MatrixFactoryInterface;
+use Attestra\QrCode\Matrix\MatrixInterface;
+use Attestra\QrCode\QrCodeInterface;
 
 final class MatrixFactory implements MatrixFactoryInterface
 {

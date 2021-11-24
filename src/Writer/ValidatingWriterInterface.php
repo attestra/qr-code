@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Writer;
+namespace Attestra\QrCode\Writer;
 
-use Endroid\QrCode\Writer\Result\ResultInterface;
+use Attestra\QrCode\Writer\Result\ResultInterface;
 
 interface ValidatingWriterInterface
 {

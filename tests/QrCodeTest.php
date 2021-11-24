@@ -2,34 +2,34 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Tests;
+namespace Attestra\QrCode\Tests;
 
-use Endroid\QrCode\Bacon\MatrixFactory;
-use Endroid\QrCode\Builder\Builder;
-use Endroid\QrCode\Color\Color;
-use Endroid\QrCode\Encoding\Encoding;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
-use Endroid\QrCode\Label\Label;
-use Endroid\QrCode\Logo\Logo;
-use Endroid\QrCode\QrCode;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeEnlarge;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeShrink;
-use Endroid\QrCode\Writer\BinaryWriter;
-use Endroid\QrCode\Writer\DebugWriter;
-use Endroid\QrCode\Writer\EpsWriter;
-use Endroid\QrCode\Writer\PdfWriter;
-use Endroid\QrCode\Writer\PngWriter;
-use Endroid\QrCode\Writer\Result\BinaryResult;
-use Endroid\QrCode\Writer\Result\DebugResult;
-use Endroid\QrCode\Writer\Result\EpsResult;
-use Endroid\QrCode\Writer\Result\PdfResult;
-use Endroid\QrCode\Writer\Result\PngResult;
-use Endroid\QrCode\Writer\Result\SvgResult;
-use Endroid\QrCode\Writer\SvgWriter;
-use Endroid\QrCode\Writer\ValidatingWriterInterface;
-use Endroid\QrCode\Writer\WriterInterface;
+use Attestra\QrCode\Bacon\MatrixFactory;
+use Attestra\QrCode\Builder\Builder;
+use Attestra\QrCode\Color\Color;
+use Attestra\QrCode\Encoding\Encoding;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
+use Attestra\QrCode\Label\Label;
+use Attestra\QrCode\Logo\Logo;
+use Attestra\QrCode\QrCode;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeEnlarge;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeShrink;
+use Attestra\QrCode\Writer\BinaryWriter;
+use Attestra\QrCode\Writer\DebugWriter;
+use Attestra\QrCode\Writer\EpsWriter;
+use Attestra\QrCode\Writer\PdfWriter;
+use Attestra\QrCode\Writer\PngWriter;
+use Attestra\QrCode\Writer\Result\BinaryResult;
+use Attestra\QrCode\Writer\Result\DebugResult;
+use Attestra\QrCode\Writer\Result\EpsResult;
+use Attestra\QrCode\Writer\Result\PdfResult;
+use Attestra\QrCode\Writer\Result\PngResult;
+use Attestra\QrCode\Writer\Result\SvgResult;
+use Attestra\QrCode\Writer\SvgWriter;
+use Attestra\QrCode\Writer\ValidatingWriterInterface;
+use Attestra\QrCode\Writer\WriterInterface;
 use PHPUnit\Framework\TestCase;
 
 final class QrCodeTest extends TestCase

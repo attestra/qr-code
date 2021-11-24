@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Writer;
+namespace Attestra\QrCode\Writer;
 
-use Endroid\QrCode\Bacon\MatrixFactory;
-use Endroid\QrCode\ImageData\LabelImageData;
-use Endroid\QrCode\ImageData\LogoImageData;
-use Endroid\QrCode\Label\Alignment\LabelAlignmentLeft;
-use Endroid\QrCode\Label\Alignment\LabelAlignmentRight;
-use Endroid\QrCode\Label\LabelInterface;
-use Endroid\QrCode\Logo\LogoInterface;
-use Endroid\QrCode\QrCodeInterface;
-use Endroid\QrCode\Writer\Result\PngResult;
-use Endroid\QrCode\Writer\Result\ResultInterface;
+use Attestra\QrCode\Bacon\MatrixFactory;
+use Attestra\QrCode\ImageData\LabelImageData;
+use Attestra\QrCode\ImageData\LogoImageData;
+use Attestra\QrCode\Label\Alignment\LabelAlignmentLeft;
+use Attestra\QrCode\Label\Alignment\LabelAlignmentRight;
+use Attestra\QrCode\Label\LabelInterface;
+use Attestra\QrCode\Logo\LogoInterface;
+use Attestra\QrCode\QrCodeInterface;
+use Attestra\QrCode\Writer\Result\PngResult;
+use Attestra\QrCode\Writer\Result\ResultInterface;
 use Zxing\QrReader;
 
 final class PngWriter implements WriterInterface, ValidatingWriterInterface

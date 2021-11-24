@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Builder;
+namespace Attestra\QrCode\Builder;
 
-use Endroid\QrCode\Color\ColorInterface;
-use Endroid\QrCode\Encoding\EncodingInterface;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
-use Endroid\QrCode\Label\Alignment\LabelAlignmentInterface;
-use Endroid\QrCode\Label\Font\FontInterface;
-use Endroid\QrCode\Label\Margin\MarginInterface;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
-use Endroid\QrCode\Writer\Result\ResultInterface;
-use Endroid\QrCode\Writer\WriterInterface;
+use Attestra\QrCode\Color\ColorInterface;
+use Attestra\QrCode\Encoding\EncodingInterface;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelInterface;
+use Attestra\QrCode\Label\Alignment\LabelAlignmentInterface;
+use Attestra\QrCode\Label\Font\FontInterface;
+use Attestra\QrCode\Label\Margin\MarginInterface;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
+use Attestra\QrCode\Writer\Result\ResultInterface;
+use Attestra\QrCode\Writer\WriterInterface;
 
 interface BuilderInterface
 {

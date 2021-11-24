@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\ErrorCorrectionLevel;
+namespace Attestra\QrCode\ErrorCorrectionLevel;
 
 final class ErrorCorrectionLevelMedium implements ErrorCorrectionLevelInterface
 {

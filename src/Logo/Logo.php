@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Logo;
+namespace Attestra\QrCode\Logo;
 
 final class Logo implements LogoInterface
 {

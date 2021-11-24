@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Color;
+namespace Attestra\QrCode\Color;
 
 interface ColorInterface
 {

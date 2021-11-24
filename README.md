@@ -25,13 +25,13 @@ $ composer require endroid/qr-code
 ## Usage: using the builder
 
 ```php
-use Endroid\QrCode\Builder\Builder;
-use Endroid\QrCode\Encoding\Encoding;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
-use Endroid\QrCode\Label\Alignment\LabelAlignmentCenter;
-use Endroid\QrCode\Label\Font\NotoSans;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
-use Endroid\QrCode\Writer\PngWriter;
+use Attestra\QrCode\Builder\Builder;
+use Attestra\QrCode\Encoding\Encoding;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
+use Attestra\QrCode\Label\Alignment\LabelAlignmentCenter;
+use Attestra\QrCode\Label\Font\NotoSans;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
+use Attestra\QrCode\Writer\PngWriter;
 
 $result = Builder::create()
     ->writer(new PngWriter())
@@ -52,14 +52,14 @@ $result = Builder::create()
 ## Usage: without using the builder
 
 ```php
-use Endroid\QrCode\Color\Color;
-use Endroid\QrCode\Encoding\Encoding;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
-use Endroid\QrCode\QrCode;
-use Endroid\QrCode\Label\Label;
-use Endroid\QrCode\Logo\Logo;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
-use Endroid\QrCode\Writer\PngWriter;
+use Attestra\QrCode\Color\Color;
+use Attestra\QrCode\Encoding\Encoding;
+use Attestra\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
+use Attestra\QrCode\QrCode;
+use Attestra\QrCode\Label\Label;
+use Attestra\QrCode\Logo\Logo;
+use Attestra\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
+use Attestra\QrCode\Writer\PngWriter;
 
 $writer = new PngWriter();
 
@@ -104,7 +104,7 @@ $dataUri = $result->getDataUri();
 ### Writer options
 
 ```php
-use Endroid\QrCode\Writer\SvgWriter;
+use Attestra\QrCode\Writer\SvgWriter;
 
 $builder->setWriterOptions([SvgWriter::WRITER_OPTION_EXCLUDE_XML_DECLARATION => true]);
 ```

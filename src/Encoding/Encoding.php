@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Encoding;
+namespace Attestra\QrCode\Encoding;
 
 final class Encoding implements EncodingInterface
 {

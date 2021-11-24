@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Endroid\QrCode\Matrix;
+namespace Attestra\QrCode\Matrix;
 
-use Endroid\QrCode\QrCodeInterface;
+use Attestra\QrCode\QrCodeInterface;
 
 interface MatrixFactoryInterface
 {
