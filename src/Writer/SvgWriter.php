@@ -46,13 +46,15 @@ final class SvgWriter implements WriterInterface
         $blockDefinition->addAttribute('fill', '#'.sprintf('%02x%02x%02x', $qrCode->getForegroundColor()->getRed(), $qrCode->getForegroundColor()->getGreen(), $qrCode->getForegroundColor()->getBlue()));
         $blockDefinition->addAttribute('fill-opacity', strval($qrCode->getForegroundColor()->getOpacity()));
 
-        $background = $xml->addChild('rect');
-        $background->addAttribute('x', '0');
-        $background->addAttribute('y', '0');
-        $background->addAttribute('width', strval($matrix->getOuterSize()));
-        $background->addAttribute('height', strval($matrix->getOuterSize()));
-        $background->addAttribute('fill', '#'.sprintf('%02x%02x%02x', $qrCode->getBackgroundColor()->getRed(), $qrCode->getBackgroundColor()->getGreen(), $qrCode->getBackgroundColor()->getBlue()));
-        $background->addAttribute('fill-opacity', strval($qrCode->getBackgroundColor()->getOpacity()));
+        if($qrCode->getBackgroundColor()->getOpacity() > 0) {
+            $background = $xml->addChild('rect');
+            $background->addAttribute('x', '0');
+            $background->addAttribute('y', '0');
+            $background->addAttribute('width', strval($matrix->getOuterSize()));
+            $background->addAttribute('height', strval($matrix->getOuterSize()));
+            $background->addAttribute('fill', '#' . sprintf('%02x%02x%02x', $qrCode->getBackgroundColor()->getRed(),$qrCode->getBackgroundColor()->getGreen(), $qrCode->getBackgroundColor()->getBlue()));
+            $background->addAttribute('fill-opacity', strval($qrCode->getBackgroundColor()->getOpacity()));
+        }
 
         for ($rowIndex = 0; $rowIndex < $matrix->getBlockCount(); ++$rowIndex) {
             for ($columnIndex = 0; $columnIndex < $matrix->getBlockCount(); ++$columnIndex) {
